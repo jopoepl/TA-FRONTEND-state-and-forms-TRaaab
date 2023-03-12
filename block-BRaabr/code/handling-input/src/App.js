@@ -69,7 +69,6 @@ handleSubmit = (event) => {
        <TextAreaInput onChange={this.handleChange} onSubmit={this.handleSubmit} value={this.state.textarea} id="textarea"/>
        <TextAreaInput disabled/>
        <FormValidatiion/>
-
       </div>
     );
   } 
